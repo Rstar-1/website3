@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import HeroSection1 from "../home/components/HeroSection1";
 import HeroSection2 from "../home/components/HeroSection2";
-import LeftImageSection1 from "../about/components/LeftImageSection1";
+import HeroSection3 from "../home/components/HeroSection3";
+import HeroSection4 from "../home/components/HeroSection4";
+import HeroSection5 from "../home/components/HeroSection5";
+import LeftImageSection1 from "../about/components/LeftImageSection5";
 import RightImageSection1 from "../about/components/RightImageSection1";
+import LeftImageSection2 from "../about/components/LeftImageSection2";
+import RightImageSection2 from "../about/components/RightImageSection2";
+import LeftImageSection3 from "../about/components/LeftImageSection3";
+import RightImageSection3 from "../about/components/RightImageSection3";
 import LeftImageSection4 from "../about/components/LeftImageSection4";
-import RightImageSection4 from "../about/components/RightImageSection4";
-import Service1 from "../service/components/Service2";
+import RightImageSection4 from "../about/components/RightImageSection9";
+import Service1 from "../service/components/Service1";
+import Service2 from "../service/components/Service2";
 import Blog1 from "../blog/components/Blog1";
-import Portfolio1 from "../gallery/components/Portfolio1";
 import Testimonial1 from "../team/components/Testimonial1";
 import Gallery1 from "../gallery/components/Gallery1";
 import ConnectForm1 from "../connect/components/ContactForm1";
@@ -18,20 +25,27 @@ import FeatherIcon from "feather-icons-react";
 
 const Demo = () => {
   const [data, setData] = useState([
-    { id: 1, content: <HeroSection1 />, status: true },
+    // { id: 1, content: <HeroSection1 />, status: true },
     { id: 2, content: <HeroSection2 />, status: true },
-    { id: 3, content: <LeftImageSection1 />, status: true },
-    { id: 4, content: <RightImageSection1 />, status: true },
-    { id: 5, content: <LeftImageSection4 />, status: true },
-    { id: 6, content: <RightImageSection4 />, status: true },
-    { id: 7, content: <Service1 />, status: true },
-    { id: 8, content: <Blog1 />, status: true },
-    { id: 9, content: <Portfolio1 />, status: true },
-    { id: 10, content: <Testimonial1 />, status: true },
-    { id: 11, content: <Gallery1 />, status: true },
-    { id: 12, content: <ConnectForm1 />, status: true },
-    { id: 13, content: <ConnectForm2 />, status: true },
-    { id: 14, content: <ConnectForm3 />, status: true },
+    // { id: 3, content: <HeroSection3 />, status: true },
+    // { id: 4, content: <HeroSection4 />, status: true },
+    // { id: 5, content: <HeroSection5 />, status: true },
+    { id: 6, content: <LeftImageSection1 />, status: true },
+    // { id: 7, content: <RightImageSection1 />, status: true },
+    // { id: 8, content: <LeftImageSection2 />, status: true },
+    // { id: 9, content: <RightImageSection2 />, status: true },
+    // { id: 10, content: <LeftImageSection3 />, status: true },
+    // { id: 11, content: <RightImageSection3 />, status: true },
+    // { id: 12, content: <LeftImageSection4 />, status: true },
+    { id: 13, content: <Service2 />, status: true },
+    // { id: 14, content: <Service1 />, status: true },
+    { id: 15, content: <RightImageSection4 />, status: true },
+    { id: 16, content: <Gallery1 />, status: true },
+    // { id: 17, content: <Blog1 />, status: true },
+    { id: 18, content: <Testimonial1 />, status: true },
+    // { id: 19, content: <ConnectForm1 />, status: true },
+    // { id: 20, content: <ConnectForm2 />, status: true },
+    // { id: 21, content: <ConnectForm3 />, status: true },
   ]);
   const moveUp = (index) => {
     if (index === 0) return; // Already at the top

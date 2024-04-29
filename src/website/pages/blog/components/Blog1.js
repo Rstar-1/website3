@@ -44,7 +44,7 @@ const Blog1 = () => {
                 spaceBetween: 20,
               },
               768: {
-                slidesPerView: 3,
+                slidesPerView: 2.4,
                 spaceBetween: 20,
               },
               640: {
@@ -75,7 +75,7 @@ const Blog1 = () => {
                     <p className="fsize13 text-dark">12/12/2024</p>
                   </div>
                   <div className="pbpx20 ptpx9 plpx8 prpx8">
-                    <h4 className="fsize20 md-fsize23 sm-fsize18 mtpx1 mbpx1 textdark">
+                    <h4 className="fsize20 md-fsize18 sm-fsize16 mtpx1 mbpx1 textdark">
                       About us
                     </h4>
                     <p className="mtpx2 fsize15 sm-fsize14 md-fsize14 textgray">
@@ -101,7 +101,7 @@ const Blog1 = () => {
                     <p className="fsize13 text-dark">12/12/2024</p>
                   </div>
                   <div className="pbpx20 ptpx9 plpx8 prpx8">
-                    <h4 className="fsize20 md-fsize23 sm-fsize18 mtpx1 mbpx1 textdark">
+                    <h4 className="fsize20 md-fsize18 sm-fsize16 mtpx1 mbpx1 textdark">
                       About us
                     </h4>
                     <p className="mtpx2 fsize15 sm-fsize14 md-fsize14 textgray">
@@ -127,7 +127,7 @@ const Blog1 = () => {
                     <p className="fsize13 text-dark">12/12/2024</p>
                   </div>
                   <div className="pbpx20 ptpx9 plpx8 prpx8">
-                    <h4 className="fsize20 md-fsize23 sm-fsize18 mtpx1 mbpx1 textdark">
+                    <h4 className="fsize20 md-fsize18 sm-fsize16 mtpx1 mbpx1 textdark">
                       About us
                     </h4>
                     <p className="mtpx2 fsize15 sm-fsize14 md-fsize14 textgray">
@@ -153,7 +153,7 @@ const Blog1 = () => {
                     <p className="fsize13 text-dark">12/12/2024</p>
                   </div>
                   <div className="pbpx20 ptpx9 plpx8 prpx8">
-                    <h4 className="fsize20 md-fsize23 sm-fsize18 mtpx1 mbpx1 textdark">
+                    <h4 className="fsize20 md-fsize18 sm-fsize16 mtpx1 mbpx1 textdark">
                       About us
                     </h4>
                     <p className="mtpx2 fsize15 sm-fsize14 md-fsize14 textgray">

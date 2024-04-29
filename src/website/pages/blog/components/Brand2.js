@@ -1,26 +1,65 @@
 import React from "react";
 
 const Brand2 = () => {
+  const branddata = [
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_1.svg",
+      name: "Creative",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_2.svg",
+      name: "Brand Agency",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_3.svg",
+      name: "Zinaco Brand",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_4.svg",
+      name: "Creative Agency",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_5.svg",
+      name: "Digital Agency",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_6.svg",
+      name: "Finance",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_7.svg",
+      name: "Organic",
+    },
+    {
+      picture:
+        "https://html.themeholy.com/haona/demo/assets/img/brand/brand_1_8.svg",
+      name: "Technology",
+    },
+  ];
+
   return (
-    <div className="relative hersection-img">
-      <img
-        src="https://nexuscluster.blob.core.windows.net/server01/artha-venture-fund/undefined/0.8940111406662126.png-9Yvw6z3vyV3f8MxqBgWVa-1709983963"
-        alt="hersection"
-        className="w-full filter-b6 hersection-img object-cover"
-      />
-      <div className="absolute top-0 text-left left-0 flex items-center justify-start hersection-img">
-        <div className="w-full container mx-auto">
-          <div className="w-60 md-w-80 sm-w-full">
-            <h3 className="textwhite font-600 sm-font-400 mtpx9 sm-mtpx4 leading mbpx3 fsize40 md-fsize25 sm-fsize20">
-              Krishi Engineering Works
-            </h3>
-            <p className="textwhite font-400 mbpx1 mtpx1 sm-mtpx4 fsize18 md-fsize16 sm-fsize14 sm-line-clamp4">
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content. Lorem ipsum may
-              be used as a placeholder before the final copy is available.
-            </p>
-          </div>
+    <div className="ptpx20 pbpx20 liner-color3">
+      <div className="container mx-auto">
+        <div className="grid-cols-4">
+          {branddata.map((e) => (
+            <div className="bgforth rounded-5 brand2-h m5">
+              <div>
+                <img
+                  src={e.picture}
+                  alt="brand2-img"
+                  className="brand2-img object-contain"
+                />
+                <p className="mtpx8 fsize18 font-500 textwhite">{e.name}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

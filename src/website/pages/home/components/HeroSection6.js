@@ -1,40 +1,31 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const HeroSection6 = () => {
   return (
-    <div className="relative hersection-img">
+    <div className="relative hersection6-img">
       <img
-        src="https://nexuscluster.blob.core.windows.net/server01/artha-venture-fund/undefined/0.8940111406662126.png-9Yvw6z3vyV3f8MxqBgWVa-1709983963"
-        alt="hersection"
-        className="w-full filter-b6 hersection-img object-cover"
+        src="https://html.themexriver.com/it-firm/images/background/7.jpg"
+        alt="hersection6-img"
+        className="w-full filter-b3 hersection6-img object-cover"
       />
-      <div className="absolute top-0 text-left left-0 flex items-center justify-start hersection-img">
+      <div className="absolute top-0 left-0 flex items-center justify-center w-full hersection6-img">
         <div className="w-full container mx-auto">
-          <div className="w-50 md-w-90 sm-w-full">
-            <p className="textwhite font-400 sm-text-justify mbpx1 fsize16 sm-fsize15">
-              Quality with Integnity
-            </p>
-            <h3 className="textwhite font-600 sm-font-400 mtpx9 sm-mtpx6 leading mbpx1 fsize40 sm-fsize20">
+          <div className="w-80 md-w-80 sm-w-full mx-auto text-center">
+            <h3 className="textwhite font-600 sm-font-400 mtpx9 sm-mtpx4 leading mbpx3 fsize40 md-fsize25 sm-fsize20">
               Krishi Engineering Works
             </h3>
-            <p className="textwhite font-400 mbpx1 fsize18 sm-fsize14">
-              We spot, invest, and nurture passionate founders obsessed with
-              solving the challenges of Indian consumers and businesses. We are
-              an energetic team of serial entrepreneurs knack of choosing
-              winners at their early stages.
+            <p className="textwhite font-400 mbpx1 mtpx5 sm-mtpx4 fsize18 md-fsize16 sm-fsize14 sm-line-clamp4">
+              In publishing and graphic design, Lorem ipsum is a placeholder
+              text commonly used to demonstrate the visual form of a document or
+              a typeface without relying on meaningful content.
             </p>
-            <div className="flex items-center justify-start gap-10">
-              <NavLink to="/connect">
-                <button className="border-0 cursor-pointer font-500 textprimary rounded-5 ptpx12 pbpx12 sm-ptpx6 sm-pbpx6 sm-plpx20 sm-prpx20 plpx35 prpx35 mtpx20 fsize16 sm-fsize13 bgwhite">
-                  Connect
-                </button>
-              </NavLink>
-              <NavLink to="/about">
-                <button className="cursor-pointer font-500 rounded-5 ptpx12 pbpx12 sm-ptpx6 sm-pbpx6 sm-plpx20 sm-prpx20 plpx35 prpx35 mtpx20 fsize16 sm-fsize13 whitebtn">
-                  About Us
-                </button>
-              </NavLink>
+            <div className="flex items-center justify-center mtpx26 md-mtpx17 sm-mtpx14">
+              <button className="border-white cursor-pointer font-500 textprimary rounded-5 sm-rounded-none ptpx12 pbpx12 md-ptpx8 md-pbpx8 sm-ptpx6 sm-pbpx6 md-plpx20 md-prpx20 sm-plpx16 sm-prpx16 plpx35 prpx35 fsize16 md-fsize14 sm-fsize13 bgwhite">
+                Connect
+              </button>
+              <button className="cursor-pointer font-500 rounded-5 sm-rounded-none ptpx12 pbpx12 md-ptpx8 md-pbpx8 sm-ptpx6 sm-pbpx6 md-plpx20 md-prpx20 sm-plpx16 sm-prpx16 plpx35 prpx35 fsize16 md-fsize14 sm-fsize13 whitebtn mlpx20 md-mlpx16 sm-mlpx15">
+                About Us
+              </button>
             </div>
           </div>
         </div>

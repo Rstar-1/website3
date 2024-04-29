@@ -1,12 +1,7 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 /* ======================= Start-Color ======================= */
-$primary: #684DF4 !important;
+$primary: #684df4 !important;
 $secondary: #3e00a7 !important;
-$tertiary: #080E1C !important;
+$tertiary: #080e1c !important;
 $forth: #121018 !important;
 $success: #4bb543 !important;
 $warning: #ff5722 !important;
@@ -52,7 +47,7 @@ $gray: gray !important;
   background: $dark;
 }
 .bg-light-primary {
-  background: #f1f5f5 !important;
+  background: #f3f2f7 !important;
 }
 .bg-light-secondary {
   background: #faf1f1 !important;
@@ -114,9 +109,6 @@ $gray: gray !important;
 }
 .liner-color3 {
   background: linear-gradient(45deg, #0045c7, #ff2c7d) !important;
-}
-.bg-second {
-  background: #151f3b !important;
 }
 /* ======================= End-Bg-Color ======================= */
 
@@ -349,10 +341,6 @@ p {
 }
 .b-shadow {
   box-shadow: 0px 9px 50px #1211271f !important;
-}
-.drop-w {
-  width: 120px !important;
-  border-radius: 6px !important;
 }
 .h-banner {
   width: 100% !important;
@@ -748,6 +736,78 @@ tr:nth-child(even):hover {
 }
 // Section 4
 
+// Section 5
+.herosection5-img {
+  width: 100% !important;
+  height: 450px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 400px !important;
+  }
+  @media (max-width: 640px) {
+    height: 320px !important;
+  }
+}
+.herosecondsection5-img {
+  width: 100% !important;
+  height: 150px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 120px !important;
+  }
+  @media (max-width: 640px) {
+    height: 100px !important;
+  }
+}
+.herothirdsection5-img {
+  height: 200px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 150px !important;
+  }
+  @media (max-width: 640px) {
+    height: 120px !important;
+  }
+}
+.heroforthsection5-img {
+  height: 200px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 150px !important;
+  }
+  @media (max-width: 640px) {
+    height: 120px !important;
+  }
+}
+.herofifthsection5-img {
+  height: 200px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 150px !important;
+  }
+  @media (max-width: 640px) {
+    height: 120px !important;
+  }
+}
+.herosixthsection5-img {
+  height: 120px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 100px !important;
+  }
+  @media (max-width: 640px) {
+    height: 120px !important;
+  }
+}
+// Section 5
+
+// Section 1
+.hersection6-img {
+  width: 100% !important;
+  height: 500px !important;
+  @media (min-width: 641px) and (max-width: 768px) {
+    height: 390px !important;
+  }
+  @media (max-width: 640px) {
+    height: 320px !important;
+  }
+}
+// Section 1
+
 .cardsection-h {
   height: 450px !important;
   @media (max-width: 640px) {
@@ -783,17 +843,6 @@ tr:nth-child(even):hover {
 .brand-img:hover {
   transform: scale(1.1);
   transition: 3s;
-}
-// Section 7
-.testimonial-h {
-  height: 180px !important;
-  @media (max-width: 640px) {
-    height: 250px !important;
-  }
-}
-.testimonial-img {
-  height: 50px;
-  width: 50px;
 }
 // Section 8
 .blogever-img {
@@ -1412,6 +1461,58 @@ tr:nth-child(even):hover {
 
 /* ======================= End-Connect ======================= */
 
+/* ======================= Start-Subscription ======================= */
+
+// Section1
+.Subscription-check {
+  padding: 2px;
+  border-radius: 50% !important;
+}
+// Section1
+
+/* ======================= End-Subscription ======================= */
+
+/* ======================= Start-Testimonial ======================= */
+
+// Section1
+.testimonial1-h {
+  height: 180px !important;
+  @media (max-width: 640px) {
+    height: 200px !important;
+  }
+}
+.testimonial1-img {
+  height: 50px;
+  width: 50px;
+}
+// Section1
+
+/* ======================= End-Testimonial ======================= */
+
+/* ======================= Start-Brand ======================= */
+
+// Section1
+.brand1-img {
+  width: 100% !important;
+  height: 70px !important;
+}
+// Section1
+
+// Section2
+.brand2-h{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand2-img {
+  width: 100% !important;
+  height: 70px !important;
+}
+// Section2
+
+/* ======================= End-Brand ======================= */
+
 /* ======================= Start-Service ======================= */
 
 // Section 1
@@ -1521,7 +1622,7 @@ tr:nth-child(even):hover {
     height: 38px !important;
   }
 }
-.opacity-8{
+.opacity-8 {
   opacity: 0.1 !important;
 }
 //Section3
