@@ -1,6 +1,6 @@
 import React from "react";
 
-const Brand2 = () => {
+const Brand = () => {
   const branddata = [
     {
       picture:
@@ -45,7 +45,7 @@ const Brand2 = () => {
   ];
 
   return (
-    <div className="ptpx20 pbpx20 liner-color3">
+    <div className="ptpx20 pbpx20 bgprimary">
       <div className="container mx-auto">
         <div className="grid-cols-4 md-grid-cols-2 sm-grid-cols-1">
           {branddata.map((e) => (
@@ -56,7 +56,9 @@ const Brand2 = () => {
                   alt="brand2-img"
                   className="brand2-img object-contain"
                 />
-                <p className="mtpx8 fsize18 md-fsize16 sm-fsize14 font-500 textwhite">{e.name}</p>
+                <p className="mtpx8 fsize18 md-fsize16 sm-fsize14 font-500 textwhite">
+                  {e.name}
+                </p>
               </div>
             </div>
           ))}
@@ -66,4 +68,4 @@ const Brand2 = () => {
   );
 };
 
-export default Brand2;
+export default Brand;

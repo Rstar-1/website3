@@ -10,7 +10,6 @@ import Gallery from "./website/pages/gallery/Gallery";
 import Team from "./website/pages/team/Team";
 import Blog from "./website/pages/blog/Blog";
 import Connect from "./website/pages/connect/Connect";
-import Demo from "./website/pages/demo/Demo";
 
 const App = () => {
   return (
@@ -20,8 +19,7 @@ const App = () => {
         <Navbar />
         <Routes>
           {/* ======================= Start-pages ======================= */}
-          <Route path="/" element={<Demo />} />
-          <Route path="/demo" element={<Demo />} />
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />

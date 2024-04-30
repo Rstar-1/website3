@@ -1,9 +1,9 @@
 import React from "react";
 import FeatherIcon from "feather-icons-react";
 
-const ConnectForm6 = () => {
+const ConnectForm = () => {
   return (
-    <div className="bgwhite ptpx60 pbpx60 sm-ptpx30 sm-pbpx30">
+    <div className="bgwhite ptpx60 pbpx60 sm-ptpx30 sm-pbpx30 bg-fa">
       <div className="container mx-auto">
         <div className="w-50 sm-w-full">
           <h4 className="fsize30 sm-fsize20 font-600 mtpx1 mbpx1 textprimary">
@@ -51,4 +51,4 @@ const ConnectForm6 = () => {
   );
 };
 
-export default ConnectForm6;
+export default ConnectForm;

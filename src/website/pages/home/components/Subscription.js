@@ -1,7 +1,7 @@
 import React from "react";
-import FeatherIcon from "feather-icons-react"
+import FeatherIcon from "feather-icons-react";
 
-const Subscription1 = () => {
+const Subscription = () => {
   return (
     <div className="ptpx60 pbpx60 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20">
       <div className="container mx-auto">
@@ -254,4 +254,4 @@ const Subscription1 = () => {
   );
 };
 
-export default Subscription1;
+export default Subscription;
